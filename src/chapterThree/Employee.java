@@ -12,6 +12,8 @@ public class Employee {
             this.monthlySalary = monthlySalary;
     }
 
+
+
     public void setFirstName(String name){
         firstName = name;
     }
@@ -34,6 +36,21 @@ public class Employee {
 
     public double getMonthlySalary(){
         return monthlySalary;
+    }
+
+
+    public double getYearlySalary() {
+        return monthlySalary * 12;
+    }
+        double yearlySalary;
+    public double getSalaryPercentage(double percentage) {
+        percentage =  (monthlySalary*12)/10;
+        return percentage;
+    }
+
+    public double getNewSalary(double newSalary) {
+      newSalary = ((monthlySalary*12)/10) + (monthlySalary*12);
+        return newSalary;
     }
 
 

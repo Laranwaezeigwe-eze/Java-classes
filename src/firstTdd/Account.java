@@ -1,6 +1,6 @@
 package firstTdd;
 
-public class MyAccount {
+public class Account {
     private double balance;
     private int pin;
 

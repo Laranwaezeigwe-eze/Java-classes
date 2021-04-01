@@ -1,6 +1,6 @@
 package chapterfive;
 
-public class For {
+public class ChristmasForLoop {
     public static void main(String[] args) {
         int counter = 1;
 

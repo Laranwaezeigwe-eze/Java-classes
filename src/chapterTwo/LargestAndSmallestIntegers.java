@@ -7,37 +7,54 @@ public class LargestAndSmallestIntegers {
         Scanner input = new Scanner(System.in);
         int largest;
         int smallest;
-        int allNumber = 0;
-        int firstNumber = allNumber;
-        int secondNumber = allNumber;
-        int thirdNumber = allNumber;
-        int fourthNumber = allNumber;
-        int fifthNumber = allNumber;
+        int firstNumber;
+        int secondNumber;
+        int thirdNumber;
+        int fourthNumber;
+        int fifthNumber;
 
-        largest = allNumber;
-        smallest = allNumber;
 
         System.out.println("Enter number: ");
-         allNumber = input.nextInt();
+         firstNumber = input.nextInt();
         System.out.println("Enter number: ");
-         allNumber = input.nextInt();
+         secondNumber = input.nextInt();
         System.out.println("Enter number: ");
-        allNumber = input.nextInt();
+        thirdNumber = input.nextInt();
         System.out.println("Enter number: ");
-        allNumber = input.nextInt();
+        fourthNumber = input.nextInt();
         System.out.println("Enter number: ");
-       allNumber = input.nextInt();
+        fifthNumber = input.nextInt();
 
 
+        largest = firstNumber;
 
-        if(allNumber > largest){
-            largest = allNumber;}
-        else
-            if (allNumber < largest)
-                smallest = allNumber;
+        if(secondNumber > largest){
+            largest = secondNumber;}
 
+        if (thirdNumber > largest){
+            largest = thirdNumber;}
 
+        if (fourthNumber > largest){
+            largest = fourthNumber;}
+
+        if (fifthNumber > largest){
+            largest = fifthNumber;}
         System.out.println("Largest number: "+ largest);
+
+        smallest = firstNumber;
+
+        if (secondNumber < smallest){
+            smallest = secondNumber;}
+
+        if (thirdNumber < smallest){
+            smallest = thirdNumber;}
+
+        if (fourthNumber < smallest){
+            smallest = fourthNumber;}
+
+        if (fifthNumber < smallest){
+            smallest = fifthNumber;}
+
         System.out.println("Smallest number: "+ smallest);
 
 

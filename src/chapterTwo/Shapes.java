@@ -11,6 +11,7 @@ public class Shapes {
         out.println("*   *");
         out.println("*   *");
         out.println("*****");
+        out.println();
 
 
         out.println(" *** ");
@@ -20,6 +21,7 @@ public class Shapes {
         out.println("*   *");
         out.println("*   *");
         out.println(" ***");
+        out.println();
 
 
         out.println("  *  ");
@@ -30,7 +32,7 @@ public class Shapes {
         out.println("  *");
         out.println("  *");
         out.println("  *");
-
+        out.println();
 
         out.println("     *  ");
         out.println("   *   *");
